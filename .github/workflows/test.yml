@@ -91,8 +91,8 @@ jobs:
         with:
           push: true
           tags: |
-            adrianchen8662/601_module10:latest
-            adrianchen8662/601_module10:${{ github.sha }}
+            adrianchen8662/is-601-module-10-secure-user-model:latest
+            adrianchen8662/is-601-module-10-secure-user-model:${{ github.sha }}
           platforms: linux/amd64,linux/arm64
-          cache-from: type=registry,ref=adrianchen8662/601_module10:cache
+          cache-from: type=registry,ref=adrianchen8662/is-601-module-10-secure-user-model:cache
           cache-to: type=inline,mode=max
